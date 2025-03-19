@@ -173,7 +173,7 @@ const Contact = () => {
         </ContactInfo>
 
         <ContactForm>
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" method="POST" netlify>
             {/* Hidden Input Required for Netlify */}
             <input type="hidden" name="form-name" value="contact" />
 
