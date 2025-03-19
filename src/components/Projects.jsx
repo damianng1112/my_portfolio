@@ -50,12 +50,12 @@ const projects = [
   {
     name: "Deploy RESTful Web App",
     description: "Built a scalable REST API with PHP, CSS, and JavaScript.",
-    link: "https://github.com/damianng1112",
+    link: "https://github.com/damianng1112/WebDevPhp",
   },
   {
     name: "Docker Website Deployment",
     description: "Containerized a website using Docker for easy deployment.",
-    link: "https://github.com/damianng1112",
+    link: "https://github.com/damianng1112/DockerProject",
   },
   {
     name: "Meat Supplier Tracking App",
