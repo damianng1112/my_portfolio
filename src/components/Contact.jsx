@@ -151,7 +151,7 @@ const Contact = () => {
             <SocialLink href="https://github.com/damianng1112" target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.1 }}>
               <FaGithub size={24} />
             </SocialLink>
-            <SocialLink href="https://linkedin.com/in/damian-ng-541058220" target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.1 }}>
+            <SocialLink href="https://www.linkedin.com/in/wye-zhen-ng-541058220/" target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.1 }}>
               <FaLinkedin size={24} />
             </SocialLink>
           </SocialLinks>
