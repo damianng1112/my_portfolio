@@ -8,6 +8,7 @@ import Timeline from "./components/Timeline";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Interest from "./components/Interest";
+import Achievements from "./components/Achievements";
 import Particles from "./components/ParticleEffect";
 
 function App() {
@@ -29,8 +30,10 @@ function App() {
       </section>
       <section id="projects">
         <Projects />
-      </section>
-      <section id ="interest">
+        </section>
+      <section id="achievements">
+        <Achievements />
+      </section>      <section id ="interest">
         <Interest />
       </section>
       <section id="contact">

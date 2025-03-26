@@ -185,6 +185,13 @@ const Navbar = () => {
             Projects
           </NavLink>
           <NavLink 
+            href="#achievements" 
+            className={activeSection === "achievements" ? "active" : ""}
+            onClick={(e) => handleNavLinkClick(e, "achievements")}
+          >
+            Achievements
+          </NavLink>
+          <NavLink 
             href="#interest" 
             className={activeSection === "interest" ? "active" : ""}
             onClick={(e) => handleNavLinkClick(e, "interest")}
@@ -245,6 +252,9 @@ const Navbar = () => {
             onClick={(e) => handleNavLinkClick(e, "projects")}
           >
             Projects
+          </MobileNavLink>
+          <MobileNavLink href="#achievements" onClick={(e) => handleNavLinkClick(e, "achievements")}>
+            Achievements
           </MobileNavLink>
           <MobileNavLink 
             href="#contact" 
