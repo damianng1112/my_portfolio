@@ -92,6 +92,13 @@ const achievementsData = [
     verifyUrl: "https://skills.yourlearning.ibm.com/certificate/share/1de52b9e25ewogICJsZWFybmVyQ05VTSIgOiAiNDQ3NzUwMFJFRyIsCiAgIm9iamVjdFR5cGUiIDogIkFDVElWSVRZIiwKICAib2JqZWN0SWQiIDogIk1ETC01NjgiCn092c9d1288c-10",
     image: "/certificates/Digital Sticker_Introduction to Large Language Models.png", 
 },
+{
+  title: "Cloud Computing Fundamentals",
+  issuer: "IBM",
+  date: "Mar 27, 2025",
+  verifyUrl: "https://www.credly.com/badges/1c6238b6-a8a0-40fa-8510-63c472914570/public_url",
+  image: "/certificates/cloud-computing-fundamentals.png", 
+},
   // Add more certificates here in the future
 ];
 
