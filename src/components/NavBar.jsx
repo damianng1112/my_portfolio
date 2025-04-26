@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 import { FaBars, FaTimes } from "react-icons/fa";
 
+// Changed scrolled to $scrolled (transient prop)
 const NavContainer = styled.nav`
   position: fixed;
   top: 0;
@@ -10,9 +11,9 @@ const NavContainer = styled.nav`
   right: 0;
   z-index: 100;
   padding: 1rem 2rem;
-  background: ${(props) => props.scrolled ? props.theme.background : "transparent"};
+  background: ${(props) => props.$scrolled ? props.theme.background : "transparent"};
   transition: background 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: ${(props) => props.scrolled ? "0 5px 15px rgba(0, 0, 0, 0.1)" : "none"};
+  box-shadow: ${(props) => props.$scrolled ? "0 5px 15px rgba(0, 0, 0, 0.1)" : "none"};
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -138,7 +139,8 @@ const Navbar = () => {
   
   return (
     <>
-      <NavContainer scrolled={scrolled}>
+      {/* Pass $scrolled instead of scrolled */}
+      <NavContainer $scrolled={scrolled}>
         <Logo
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -253,7 +255,10 @@ const Navbar = () => {
           >
             Projects
           </MobileNavLink>
-          <MobileNavLink href="#achievements" onClick={(e) => handleNavLinkClick(e, "achievements")}>
+          <MobileNavLink 
+            href="#achievements" 
+            onClick={(e) => handleNavLinkClick(e, "achievements")}
+          >
             Achievements
           </MobileNavLink>
           <MobileNavLink 
