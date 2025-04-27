@@ -276,12 +276,13 @@ const Home = () => {
             <FaLinkedin /> LinkedIn
           </SocialLink>
           <SocialLink 
-            href="/resume.pdf" 
+            href="/Damian_CV.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
             primary
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            download="Damian_CV.pdf" 
           >
             <FaFileDownload /> Resume
           </SocialLink>
