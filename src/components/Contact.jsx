@@ -280,7 +280,7 @@ const Contact = () => {
 
             <InfoItem>
               <FaEnvelope />
-              <span>damianng1112@gmail.com</span>
+              <span>damianngwyezhen@gmail.com</span>
             </InfoItem>
 
             <InfoItem>
@@ -290,7 +290,7 @@ const Contact = () => {
 
             <InfoItem>
               <FaMapMarkerAlt />
-              <span>27 Thornbury Drive, Meadowbrook, Athlone</span>
+              <span>45 Willow Park Road, Kilmacuagh, Athlone</span>
             </InfoItem>
           </ContactInfo>
 
